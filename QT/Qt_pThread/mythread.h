@@ -34,6 +34,7 @@ public:
     {
         isRuning = true;
         wait();
+        // 停止并把将值恢复原始状态
         setData(0);
     }
 
